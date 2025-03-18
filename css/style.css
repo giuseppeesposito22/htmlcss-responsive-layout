@@ -143,3 +143,34 @@ body {
 .presentation h2 {
   margin-bottom: 1rem;
 }
+
+/* FOOTER */
+
+.page-footer {
+  background-color: #7c69a4;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.page-footer .container {
+  text-align: center;
+}
+
+.links {
+  flex-wrap: wrap;
+}
+
+.links li {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.links a {
+  text-decoration: underline;
+  color: white;
+}
+
+.page-footer h4 {
+  margin-bottom: 0.5rem;
+}

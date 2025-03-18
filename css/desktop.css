@@ -1,0 +1,49 @@
+/* DESKTOP RESOLUTION */
+
+@media screen and (min-width: 992px) {
+  /* section dessert */
+
+  .dessert .card {
+    display: flex;
+  }
+
+  .dessert img {
+    height: 100%;
+  }
+
+  .content ul {
+    flex-direction: column;
+  }
+
+  .content li {
+    width: 100%;
+  }
+
+  .dessert .video {
+    width: calc(100% / 3 * 2);
+  }
+
+  /* section social */
+
+  .name-social {
+    display: block;
+  }
+
+  .element-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  /* footer  */
+
+  .page-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page-footer .company-info {
+    text-align: start;
+  }
+}

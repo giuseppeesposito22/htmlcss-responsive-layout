@@ -20,6 +20,7 @@ ul {
 
 body {
   background-color: #f6f5f3;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* UTILS */
@@ -75,9 +76,16 @@ body {
 .page-header {
   background-color: white;
   text-align: center;
-  padding: 1rem 0;
+  padding: 0.5rem;
   color: #ff9614;
   margin-bottom: 1rem;
+}
+
+.page-header h1 {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
 }
 
 /* MAIN  */
@@ -105,6 +113,11 @@ body {
   margin-bottom: 1rem;
 }
 
+.dessert .video,
+.dessert img {
+  width: 100%;
+}
+
 /* SECTION SOCIAL  */
 
 .section-social .container {
@@ -116,6 +129,7 @@ body {
   background-color: white;
   border-radius: 99px;
   padding: 1rem;
+  text-align: center;
 }
 
 .section-social {
@@ -146,6 +160,10 @@ body {
 
 .presentation h2 {
   margin-bottom: 1rem;
+}
+
+.presentation {
+  margin-bottom: 4rem;
 }
 
 /* FOOTER */

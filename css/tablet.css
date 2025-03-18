@@ -1,0 +1,59 @@
+/* TABLET RESOLUTION */
+
+@media screen and (min-width: 768px) {
+  /* header  */
+  .page-header {
+    text-align: start;
+  }
+
+  .page-header h1 {
+    font-size: 2rem;
+  }
+
+  /* section dessert */
+
+  .dessert h2::after {
+    content: " (Dolce Tradizionale)";
+  }
+
+  .content ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content li {
+    width: calc(100% / 3);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* section social */
+
+  .element-social {
+    flex-grow: 1;
+  }
+
+  .section-social .container {
+    gap: 2rem;
+  }
+
+  /* section banner */
+
+  .banner {
+    display: block;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
+  /* section presentation */
+
+  .img-dessert {
+    float: left;
+    margin-right: 1rem;
+    margin-top: 0;
+  }
+
+  .break {
+    margin-bottom: 2rem;
+  }
+}

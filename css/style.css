@@ -82,6 +82,8 @@ body {
 
 /* MAIN  */
 
+/* SECTION DESSERT  */
+
 .content {
   padding: 1rem;
 }
@@ -100,5 +102,44 @@ body {
 }
 
 .content h3 {
+  margin-bottom: 1rem;
+}
+
+/* SECTION SOCIAL  */
+
+.section-social .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.element-social {
+  background-color: white;
+  border-radius: 99px;
+  padding: 1rem;
+}
+
+.section-social {
+  margin: 2rem auto;
+}
+
+/* SECTION SOCIAL  */
+
+.banner {
+  display: none;
+}
+
+/* SECTION PRESENTATION */
+
+.break {
+  width: 20%;
+  border: 1px solid orange;
+}
+
+.img-dessert {
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.presentation h2 {
   margin-bottom: 1rem;
 }

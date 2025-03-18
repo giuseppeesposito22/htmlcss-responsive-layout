@@ -107,6 +107,11 @@ body {
 .dessert h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  color: #4e3969;
+}
+
+.dessert span {
+  color: gray;
 }
 
 .content h3 {
@@ -138,6 +143,28 @@ body {
 
 .name-social {
   display: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.fa-facebook {
+  color: #1a77f3;
+}
+
+.fa-twitter {
+  color: #009eff;
+}
+
+.fa-instagram {
+  color: #e15b8d;
+}
+
+.fa-pinterest {
+  color: #e62222;
+}
+
+.fa-youtube {
+  color: #e62222;
 }
 
 /* SECTION BANNER  */
@@ -154,16 +181,22 @@ body {
 }
 
 .img-dessert {
-  width: 50%;
+  width: 320px;
   margin: 1rem auto;
 }
 
 .presentation h2 {
   margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .presentation {
   margin-bottom: 4rem;
+}
+
+.presentation p {
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
 
 /* FOOTER */

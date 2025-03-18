@@ -122,7 +122,11 @@ body {
   margin: 2rem auto;
 }
 
-/* SECTION SOCIAL  */
+.name-social {
+  display: none;
+}
+
+/* SECTION BANNER  */
 
 .banner {
   display: none;
